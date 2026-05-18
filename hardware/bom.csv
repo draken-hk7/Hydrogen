@@ -1,0 +1,54 @@
+Category,Component,Quantity,Specification,Preferred Material/Rating,Approx Price INR,Source Notes,Safety Critical
+Electrical,ESP32 development board,1,ESP32-WROOM devkit,5 V USB powered,400-700,Amazon India/local electronics,No
+Electrical,Isolated CC/CV DC power supply,1,60 V 15-20 A 900-1200 W,Isolated output current limiting,4000-8000,Amazon India/industrial SMPS supplier,Yes
+Electrical,AC MCB,1,230 VAC single phase matched to input current,C-curve suitably rated,400-900,Local electrical supplier,Yes
+Electrical,RCD/ELCB,1,30 mA trip recommended,230 VAC single phase,1000-2500,Local electrical supplier,Yes
+Electrical,EMI filter,1,230 VAC input filter,>=6 A,500-1200,Electronics supplier,No
+Electrical,AC fuse holder and fuse,1,Input side protection,Rated for mains,200-600,Local electrical supplier,Yes
+Electrical,DC fuse holder and fuse,1,20-25 A DC rated,>=80 V DC,500-1000,Industrial electrical supplier,Yes
+Electrical,DC contactor,1,>=80 V DC >=30 A coil matching driver,DC-rated contacts,1200-2500,Industrial electrical supplier,Yes
+Electrical,Emergency stop switch,1,Normally closed latching mushroom switch,Panel mount,300-900,Local electrical supplier,Yes
+Electrical,Isolated 5 V control supply,1,5 V 2 A,Isolated module/adaptor,300-800,Amazon India/local electronics,Yes
+Electrical,Terminal blocks and DIN rail,1 set,AC/DC segregation,Flame-retardant,500-1500,Local electrical supplier,Yes
+Electrical,Earthing hardware,1 set,Earth bar wire lugs bonding straps,Green/yellow earth wire,300-1000,Local electrical supplier,Yes
+Electrolyzer,Nickel mesh or nickel sheet electrodes,60,100 mm x 100 mm active area,Nickel 200 preferred,4000-10000,IndiaMART/local metal supplier,Yes
+Electrolyzer,HDPE or PP cell frames,30,100 cm2 active window,10-12 mm sheet or machined frame,2000-5000,Local plastic fabricator,Yes
+Electrolyzer,Separator diaphragm sheets,30,Zirfon PERL or alkaline diaphragm,Alkaline-compatible,5000-15000,Specialty supplier/import/local electrolyzer vendor,Yes
+Electrolyzer,Gaskets,60,Cell perimeter gaskets,EPDM/PTFE/FKM KOH-compatible,1000-3000,Rubber gasket supplier,Yes
+Electrolyzer,Stack tie rods,4-8,Threaded rods with washers,Stainless outside wetted path,500-1500,Hardware supplier,Yes
+Electrolyzer,Insulating end plates,2,Thick HDPE/PP plates,Mechanical compression,800-2000,Local plastic fabricator,Yes
+Electrolyte,KOH flakes,3 kg,85-90% industrial or better,Potassium hydroxide,750-2000,Chemical supplier/Amazon India,Yes
+Electrolyte,Distilled or DI water,15 L,Low TDS water,Do not use tap water,300-800,Local lab/automotive supplier,Yes
+Electrolyte,Electrolyte reservoir,1,10-15 L tank,HDPE or PP,800-1500,Local plastic supplier,Yes
+Electrolyte,Circulation pump,1,KOH-compatible low-head pump,PP/PTFE wetted parts preferred,1000-3000,Industrial pump supplier,Yes
+Thermal,Radiator or heat exchanger,1,200-300 W heat rejection,Isolated from electronics,800-2500,Local/online,No
+Thermal,Cooling fan,1,12 V fan,>=120 mm,300-800,Electronics supplier,No
+Sensors,Current sensor,1,ACS758 50/100 A or equivalent,Hall isolated preferred,800-2000,DigiKey India/Amazon/local,Yes
+Sensors,Voltage divider components,1 set,High-value resistors TVS RC filter,Rated for measured voltage,300-800,Electronics supplier,Yes
+Sensors,H2 pressure sensor,1,0-1 bar gauge analog output,Media-compatible isolated diaphragm preferred,500-1500,Amazon India/industrial supplier,Yes
+Sensors,O2 pressure sensor,1,0-1 bar gauge analog output,Media-compatible isolated diaphragm preferred,500-1500,Amazon India/industrial supplier,Yes
+Sensors,Temperature sensor,2,DS18B20 waterproof or K-type probe,Use thermowell if wetted,300-1200,Amazon India/local,Yes
+Sensors,Low level switch,1,Float or external capacitive switch,KOH-compatible or external,200-700,Amazon India/local,Yes
+Sensors,H2 leak detector,1,MQ-8 minimum calibrated detector preferred,Relay output preferred,500-4000,Amazon India/industrial gas safety supplier,Yes
+Sensors,Conductivity sensor,1,EC sensor,Alkaline-compatible probe preferred,500-3000,Hydroponics/industrial supplier,No
+Sensors,pH test strips or probe,1,High alkaline measurement,pH 0-14 range,200-2000,Chemical/lab supplier,No
+Gas Handling,H2 gas-liquid separator,1,Low-pressure separator,HDPE/PP/KOH-compatible,700-2000,DIY/fabricated/local,Yes
+Gas Handling,O2 gas-liquid separator,1,Low-pressure separator,HDPE/PP/KOH-compatible,700-2000,DIY/fabricated/local,Yes
+Gas Handling,H2 water trap,1,Separate H2 trap,No shared bubbler,250-800,Lab/plumbing supplier,Yes
+Gas Handling,O2 water trap,1,Separate O2 trap,No shared bubbler,250-800,Lab/plumbing supplier,Yes
+Gas Handling,H2 desiccant dryer,1,Silica gel or molecular sieve dryer,Serviceable cartridge,500-1500,Lab/online,No
+Gas Handling,H2 flashback arrestor,1,Hydrogen-rated flashback arrestor,Correct flow direction,1500-4000,Welding gas supplier,Yes
+Gas Handling,Check valves,2,H2 and O2 line check valves,KOH/gas compatible,600-1500,Industrial pneumatic supplier,Yes
+Gas Handling,Pressure relief valves,2,<=0.3 bar gauge preferred,Install on H2 and O2 separators,1500-4000,Industrial safety valve supplier,Yes
+Gas Handling,Outdoor vent tubing,10 m,6-8 mm OD tubing,PTFE/PP/PE,800-2000,Pneumatic supplier,Yes
+Gas Handling,Fittings and bulkheads,1 set,6-8 mm tube fittings,PP/PTFE/SS as compatible,1000-3000,Pneumatic/plumbing supplier,Yes
+Enclosure,Electrical enclosure,1,Separate dry enclosure,Earthed metal or FR plastic,1500-4000,Electrical supplier,Yes
+Enclosure,Electrolyte containment tray,1,Secondary containment,HDPE/PP,800-2000,Plastic fabricator,Yes
+Enclosure,Ventilated outer cabinet,1,Outdoor shed/cabinet,Non-sparking ventilation path,2000-5000,Local fabrication,Yes
+Safety,PPE kit,1,Chemical goggles face shield gloves apron,KOH-compatible,1500-4000,Safety supplier,Yes
+Safety,Eyewash bottle/station,1,Emergency rinse,Accessible location,500-2000,Safety supplier,Yes
+Safety,Spill neutralization kit,1,Citric acid/absorbent/container,For small KOH spills,500-1500,Safety supplier,Yes
+Safety,Warning labels,1 set,H2 O2 KOH electrical hazard labels,Weather resistant,200-800,Local print/electrical supplier,No
+Firmware,Relay/MOSFET driver board,2,Contactor and fan/pump control,Opto-isolated preferred,300-1000,Electronics supplier,Yes
+Firmware,Buzzer/beacon,1,Audible/visible alarm,12 V or 5 V,200-800,Electronics supplier,No
+Firmware,Wiring harness,1 set,Signal and power wiring,Strain relief ferrules lugs,500-1500,Local electrical supplier,Yes
